@@ -10,7 +10,7 @@ body, html {
 .background {
     position: relative;
     height: 100vh;
-    background: url('./data/background.webp') no-repeat center center fixed;
+    background: url('./data/background.jpg') no-repeat center center fixed;
     background-size: cover;
     filter: blur(0.5px);
     overflow: scroll;
