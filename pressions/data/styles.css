@@ -107,7 +107,16 @@ main {
     background: rgba(255, 255, 255, 0.3);
     animation: popup 0.5s ease-out forwards;
 }
-.blurred-text {
+.blurred-textfour {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.3); 
     animation: popup 0.5s ease-out forwards;
 }
 @media (max-width: 1440px) {
