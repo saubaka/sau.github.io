@@ -10,53 +10,29 @@
 <body>
     <div class="background">
         <div class="overlay">
-            <header>
-                <div class="blurred-text"><h1>sau站</h1></div>
-                <nav>
-                    <ul>
-                        <!--<div class="blurred-text"><li><a href="./pressions/aboutme/index.html">关于我</a></li>
-                        <li><a href="./pressions/articlelist/index.html">文章</a></li>-->
-                       
-                        <div class="blurred-text"><li><a href="https://blog.saubaka.top">博客</a></li>
-                        <li><a href='./pressions/data/index.html'>资源</a></li>
-                        <li><a href="https://blog.saubaka.top/pressions/commented/index.html">意见反馈</a></li><div>
-                    </ul>
-                </nav>
-            </header>
-            <main>
-                <div class="blurred-text">
-                    <h>欢迎来到sau站！</h>
-                    <p>目前正在构建大致结构，暂未上线功能</p>
-                    <p>如有疑问请前往我的博客自寻联系方式！</p>
-                </section>
-            </main>
+            <button id="menuButton">☰</button>
+            <div id="sidebar">
+                <a href="https://blog.saubaka.top">博客</a>
+                <a href='./pressions/data/index.html'>资源</a>
+                <a href="https://blog.saubaka.top/pressions/commented/index.html">意见反馈</a>
+            </div>
+            <div id="mainContent">
+                <header>
+                    <div class="blurred-text"><h1>sau站</h1></div>
+                </header>
+                <main>
+                    <div class="blurred-text">
+                        <h>欢迎来到sau站！</h>
+                        <p>目前正在构建大致结构，暂未上线功能</p>
+                        <p>如有疑问请前往我的博客自寻联系方式！</p>
+                    </section>
+                </main>
+            </div>
+            <script src="script.js"></script>
             <footer>
                 <div class="blurred-text"><p>&copy; 2024 sau_baka. 版权所有.</p>
             </footer>
         </div>
     </div>
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyCj10S-WkUJEQJGwiKroLdg7iOLrX41p7A",
-          authDomain: "saubaka-5ed5b.firebaseapp.com",
-          projectId: "saubaka-5ed5b",
-          storageBucket: "saubaka-5ed5b.appspot.com",
-          messagingSenderId: "806130746025",
-          appId: "1:806130746025:web:b479b57161c722aaccdfb8",
-          measurementId: "G-266Y6WSJ1V"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
 </body>
 </html>
